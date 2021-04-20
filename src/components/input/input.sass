@@ -1,0 +1,21 @@
+.bl-input-wrap
+  & > label
+    top: 0%
+    transform: translateY(-50%)
+    font-size: 11px
+    color: rgba(37, 99, 235, 1)
+
+  & > .empty.bl-input:not(:focus) + label
+    top: 50%
+    transform: translateY(-50%)
+    font-size: 14px
+
+  & > .bl-input:not(:focus) + label
+    color: rgba(70, 70, 70, 1)
+
+  & > .bl-input
+    border-width: 1px
+
+  & > .bl-input:focus
+    outline: none
+    border-color: rgba(37, 99, 235, 1)
