@@ -31,7 +31,7 @@ export default defineConfig({
       output: {
         // format: 'system',
         globals: {
-          vue: 'Vue'
+          vue: 'vue'
         }
       },
     },
